@@ -1,0 +1,12 @@
+FFmpeg in the upstream scrcpy 5.0 Windows x64 distribution
+
+Version: 9.0.2. Unmodified upstream source, SHA-256 verified against scrcpy v5.0 app/deps/ffmpeg.sh.
+License reported by the shipped avcodec DLL: LGPL version 2.1 or later
+
+Configuration reported by the shipped avcodec DLL:
+--prefix=/home/runner/work/scrcpy/scrcpy/app/deps/work/install/win64-cross-shared --pkg-config-flags=--static --extra-cflags='-O2 -fPIC' --disable-programs --disable-doc --disable-swscale --disable-avfilter --disable-network --disable-everything --disable-vulkan --disable-vdpau --enable-swresample --enable-libdav1d --enable-decoder=h264 --enable-decoder=hevc --enable-decoder=av1 --enable-decoder=vp8 --enable-decoder=vp9 --enable-decoder=libdav1d --enable-decoder=pcm_s16le --enable-decoder=opus --enable-decoder=aac --enable-decoder=flac --enable-decoder=png --enable-protocol=file --enable-demuxer=image2 --enable-parser=png --enable-zlib --enable-muxer=matroska --enable-muxer=mp4 --enable-muxer=opus --enable-muxer=flac --enable-muxer=wav --disable-avdevice --disable-vaapi --enable-d3d11va --enable-hwaccel=h264_d3d11va --enable-hwaccel=h264_d3d11va2 --enable-hwaccel=hevc_d3d11va --enable-hwaccel=hevc_d3d11va2 --enable-hwaccel=av1_d3d11va --enable-hwaccel=av1_d3d11va2 --enable-hwaccel=vp9_d3d11va --enable-hwaccel=vp9_d3d11va2 --disable-static --enable-shared --enable-cross-compile --cross-prefix=x86_64-w64-mingw32- --cc=x86_64-w64-mingw32-gcc --target-os=mingw32 --arch=x86_64
+
+Build instructions and dependency versions: sources/scrcpy-5.0.tar.gz, release/build_windows.sh and app/deps/.
+The original build uses release/build_windows.sh 64 on Linux with MinGW-w64. See the pinned upstream documentation for toolchain prerequisites.
+Android Bay does not modify or statically link these libraries. scrcpy dynamically loads the shipped DLLs; users may replace them with interface-compatible modified builds.
+No additional restriction on reverse engineering for debugging library modifications is imposed by Android Bay.

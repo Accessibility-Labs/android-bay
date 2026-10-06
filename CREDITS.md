@@ -1,6 +1,6 @@
-# Credits and acknowledgments
+# Credits
 
-Android Bay combines an independently written desktop controller, local archive reader and Android helper with mature tools built by others. We are grateful to the people who made that possible.
+This page identifies the tools included in Android Bay, their authors and their role in the application. Design references are listed separately from bundled dependencies.
 
 ## Tools included in the Windows release
 
@@ -8,10 +8,10 @@ Android Bay combines an independently written desktop controller, local archive 
 | --- | --- | --- | --- |
 | [Android Debug Bridge / Platform Tools](https://developer.android.com/tools/releases/platform-tools) | Android Open Source Project, Google and contributors | Authorized USB communication and accessible data transfer | [ADB source](https://android.googlesource.com/platform/packages/modules/adb/); bundled `tools/platform-tools/NOTICE.txt` |
 | [scrcpy](https://github.com/Genymobile/scrcpy) | Genymobile, Romain Vimont and contributors | The optional Mirror phone window | Apache-2.0 for scrcpy; [release and dependency build information](https://github.com/Genymobile/scrcpy/tree/v5.0/release); bundled components retain their own terms |
-| [ExifTool](https://github.com/exiftool/exiftool) | Phil Harvey and contributors; Windows packaging contributors | Read-only metadata extraction from saved media | [Official site](https://exiftool.org/); same terms as Perl (Artistic License or GPL), plus bundled dependency notices |
+| [ExifTool](https://github.com/exiftool/exiftool) | Phil Harvey and contributors; Windows launcher and packaging by Oliver Betz | Read-only metadata extraction from saved media | [Official site](https://exiftool.org/); same terms as Perl (Artistic License or GPL), plus bundled dependency notices |
 | [CPython](https://github.com/python/cpython) | Python Software Foundation and contributors | Portable Python runtime and standard library | [Python license](https://docs.python.org/3/license.html); bundled `runtime/LICENSE.txt` |
 
-The release keeps vendor copyright notices and license files. ExifTool's executable is renamed from `exiftool(-k).exe` to `exiftool.exe` for noninteractive use. Python's isolated import path is configured to load the adjacent application. Versions and archive checksums are recorded in [DEPENDENCIES.json](DEPENDENCIES.json).
+The release keeps vendor copyright notices and license files. ExifTool's executable is renamed from `exiftool(-k).exe` to `exiftool.exe` for noninteractive use. Python's isolated import path is configured to load the adjacent application. Versions and archive checksums are recorded in [DEPENDENCIES.json](DEPENDENCIES.json). The scrcpy bundle also includes FFmpeg, libusb, SDL and dav1d; [third-party/README.md](third-party/README.md) records their licenses and source materials.
 
 ## Projects that informed the design
 

@@ -4,8 +4,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "16b784c4e0f595375922ff8c33a772d2d3a53e11a94074884f61586c59f1e39a",
-      "bytes": 423
+      "sha256": "51fba11cf25a7e16e91505388543dd532d49377e181c4bb99a1c1ce10e3de278",
+      "bytes": 518
     },
     {
       "path": "Build package.cmd",
@@ -19,8 +19,8 @@
     },
     {
       "path": "CREDITS.md",
-      "sha256": "b33585df846c492b18b28e30407bebd96833be99cf1396330a5a02260b11fe78",
-      "bytes": 4407
+      "sha256": "e31dc316d414f37c90759e877dd38bcb221c5192d4a569e9fb0a7170b7a16662",
+      "bytes": 4571
     },
     {
       "path": "DEPENDENCIES.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "LICENSE",
-      "sha256": "9761c838075b78dd73cdf794f797447e04cc8640155e52f34fed7f37d125c631",
-      "bytes": 1238
+      "sha256": "5c163d63058007faf082e3eddd62ed970233d376452d41f559b69209d9744c44",
+      "bytes": 1125
     },
     {
       "path": "Launch.cmd",
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a9a873396fda7ce2d2f5fe60263302499f50239a7ce367e39d70e6ed05a4f76b",
-      "bytes": 10354
+      "sha256": "0638b311d8b1303f3bc76cdbfec5ea5c4272e9bfcf27c31dc1e89d6ebc1cffc9",
+      "bytes": 10814
     },
     {
       "path": "SECURITY.md",
@@ -64,13 +64,13 @@
     },
     {
       "path": "THIRD-PARTY-NOTICES.txt",
-      "sha256": "8a2b0b8e9e4cdb5468e08549c5500e28d3abb7df37a0a206d3c85ebadbd491ee",
-      "bytes": 2443
+      "sha256": "a50b945922208f035841cfd7a4f10ddac04f6924c1d9de20fc6e8fd4b65af243",
+      "bytes": 3004
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "32173b9141881ca283d9c2c313961962f06cce9c9c1763a92d59c901692e88b0",
-      "bytes": 2120
+      "sha256": "0a16867e2f3c60a01b124ebf99a33437961ecf7d04f6ab159871cdad3fe46bdd",
+      "bytes": 2997
     },
     {
       "path": "adb.py",
@@ -154,8 +154,8 @@
     },
     {
       "path": "docs/demo.png",
-      "sha256": "d40d56d4789cf0fb82da4b678bcbc854034c871eb5dfb2094d8805cdbe00058d",
-      "bytes": 66795
+      "sha256": "ebd6d0f36fe3e7e184573be996ad83b5dd3f1a7d64ab3593b3a308d1416ad606",
+      "bytes": 69712
     },
     {
       "path": "engine.py",
@@ -421,6 +421,76 @@
       "path": "tests/test_server.py",
       "sha256": "b58520a095a02d33ee448f8526d68f843d83a42397bfde630eaff46705d0140b",
       "bytes": 7405
+    },
+    {
+      "path": "third-party/FFmpeg-BUILD.txt",
+      "sha256": "667f531e3b18ad4977545e495a6ab8067c0930b833e06be0ddfafb7791032f9b",
+      "bytes": 2028
+    },
+    {
+      "path": "third-party/FFmpeg-LGPL-2.1.txt",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30",
+      "bytes": 26517
+    },
+    {
+      "path": "third-party/FFmpeg-LICENSE.md",
+      "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af",
+      "bytes": 4346
+    },
+    {
+      "path": "third-party/Perl-Artistic.txt",
+      "sha256": "dd90d4f42e4dcadf5a7c09eea0189d93c7b37ae560c91f0f6d5233ed3b9292a2",
+      "bytes": 6321
+    },
+    {
+      "path": "third-party/README.md",
+      "sha256": "72f1423723c6d4018bf896302b180d308da3c733951b56896b01081b63d941bb",
+      "bytes": 4010
+    },
+    {
+      "path": "third-party/SDL-LICENSE.txt",
+      "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+      "bytes": 884
+    },
+    {
+      "path": "third-party/SOURCES.json",
+      "sha256": "045af2b502e422913f1ba055c5d8ac40d9055a5a41fb9eb01248a28a1e3b664e",
+      "bytes": 2824
+    },
+    {
+      "path": "third-party/dav1d-COPYING.txt",
+      "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5",
+      "bytes": 1317
+    },
+    {
+      "path": "third-party/libusb-LGPL-2.1.txt",
+      "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+      "bytes": 26436
+    },
+    {
+      "path": "third-party/sources/dav1d-1.5.4.tar.xz",
+      "sha256": "686616b7c69eb88d44459391ab25cac13b6647a3b288835c5784e71c1514a5c5",
+      "bytes": 1038852
+    },
+    {
+      "path": "third-party/sources/ffmpeg-9.0.2.tar.xz",
+      "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e",
+      "bytes": 12040788
+    },
+    {
+      "path": "third-party/sources/libusb-1.0.30.tar.gz",
+      "sha256": "2ae28adb0bb9558c86135c4e1c11b320b0805461e207a64a6e520a114094bf07",
+      "bytes": 436332
+    },
+    {
+      "path": "third-party/sources/scrcpy-5.0.tar.gz",
+      "sha256": "a431f6ed9e63629938464bbfe92b022d6dddf09d7e1d52758b3fc5b52d4c4b03",
+      "bytes": 513272
+    },
+    {
+      "path": "third-party/zlib-LICENSE.txt",
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+      "bytes": 1002
     },
     {
       "path": "tools/exiftool/README.txt",
@@ -3124,8 +3194,8 @@
     },
     {
       "path": "web/app.css",
-      "sha256": "558bfdd92a1974e01e820ed440e00a2863fcd1c549fea2aea6119c4b67362467",
-      "bytes": 28653
+      "sha256": "eabbe650baf7d2adf425cca2c218c7ba00a7c749c5678a706724304ec677014a",
+      "bytes": 34738
     },
     {
       "path": "web/app.js",
@@ -3134,18 +3204,18 @@
     },
     {
       "path": "web/index.html",
-      "sha256": "0c0909102e2f8a09b0a50d844361852eeed47bc876ec426b1269101fcb437fde",
-      "bytes": 25378
+      "sha256": "3b58377ddd86654aef503e508f44d8cf16e3528f721c2f0f14131a72a93dd62d",
+      "bytes": 29337
     },
     {
       "path": "web/reader.css",
-      "sha256": "92e8428a0d0d612ebe3ae35d255c4607b10ab75b4e7ad97577685d35b4ca4d8c",
-      "bytes": 16549
+      "sha256": "551994d80845f1f39f2e5634c6b11726df4439e147ae505b4e685e1021498465",
+      "bytes": 21896
     },
     {
       "path": "web/reader.html",
-      "sha256": "e12f6ea269f73f09b2858b52b511e2f23af381db9a2ee0bab1ad267075b140cf",
-      "bytes": 7767
+      "sha256": "f925f6710c9382643eaaeb3d8f24f78dab6b1988ac372a4cabcbacc5e391e425",
+      "bytes": 11512
     },
     {
       "path": "web/reader.js",

@@ -34,3 +34,5 @@ tools/
 dist/
 *.zip
 *.zip.sha256.txt
+# Vendor source archives belong in the portable release, not Git history.
+third-party/sources/

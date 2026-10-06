@@ -1,0 +1,65 @@
+[
+  {
+    "path": "third-party/sources/ffmpeg-9.0.2.tar.xz",
+    "url": "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz",
+    "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e",
+    "verifiedAgainst": "scrcpy v5.0 dependency build script"
+  },
+  {
+    "path": "third-party/sources/libusb-1.0.30.tar.gz",
+    "url": "https://github.com/libusb/libusb/archive/refs/tags/v1.0.30.tar.gz",
+    "sha256": "2ae28adb0bb9558c86135c4e1c11b320b0805461e207a64a6e520a114094bf07",
+    "verifiedAgainst": "scrcpy v5.0 dependency build script"
+  },
+  {
+    "path": "third-party/sources/scrcpy-5.0.tar.gz",
+    "url": "https://github.com/Genymobile/scrcpy/archive/refs/tags/v5.0.tar.gz",
+    "sha256": "a431f6ed9e63629938464bbfe92b022d6dddf09d7e1d52758b3fc5b52d4c4b03",
+    "verifiedAgainst": "official upstream HTTPS source"
+  },
+  {
+    "path": "third-party/sources/dav1d-1.5.4.tar.xz",
+    "url": "https://downloads.videolan.org/pub/videolan/dav1d/1.5.4/dav1d-1.5.4.tar.xz",
+    "sha256": "686616b7c69eb88d44459391ab25cac13b6647a3b288835c5784e71c1514a5c5",
+    "verifiedAgainst": "scrcpy v5.0 dependency build script"
+  },
+  {
+    "path": "third-party/FFmpeg-LGPL-2.1.txt",
+    "sourceArchive": "ffmpeg-9.0.2.tar.xz",
+    "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+  },
+  {
+    "path": "third-party/FFmpeg-LICENSE.md",
+    "sourceArchive": "ffmpeg-9.0.2.tar.xz",
+    "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+  },
+  {
+    "path": "third-party/libusb-LGPL-2.1.txt",
+    "sourceArchive": "libusb-1.0.30.tar.gz",
+    "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a"
+  },
+  {
+    "path": "third-party/SDL-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/libsdl-org/SDL/release-3.4.18/LICENSE.txt",
+    "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd",
+    "verifiedAgainst": "official upstream HTTPS source"
+  },
+  {
+    "path": "third-party/dav1d-COPYING.txt",
+    "url": "https://code.videolan.org/videolan/dav1d/-/raw/1.5.4/COPYING",
+    "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5",
+    "verifiedAgainst": "official upstream HTTPS source"
+  },
+  {
+    "path": "third-party/Perl-Artistic.txt",
+    "url": "https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Artistic",
+    "sha256": "dd90d4f42e4dcadf5a7c09eea0189d93c7b37ae560c91f0f6d5233ed3b9292a2",
+    "verifiedAgainst": "official upstream HTTPS source"
+  },
+  {
+    "path": "third-party/zlib-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madler/zlib/v1.3.1/LICENSE",
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+    "verifiedAgainst": "official upstream HTTPS source"
+  }
+]

@@ -6,11 +6,11 @@
 
 *Preview uses synthetic demo data only.*
 
-Android Bay is a portable Windows app for copying accessible data from an unlocked Android phone over USB, then reading the saved archive on your PC. No Google account, Play Store, cloud service, or phone internet connection is required for its offline workflow.
+Android Bay is a portable Windows app for copying accessible data from an unlocked Android phone over USB, then reading the saved archive on your PC. **No Google account or cloud upload required.** The app and phone helper work without the Play Store or a phone internet connection.
 
 **[Download the Windows app](https://github.com/Accessibility-Labs/android-bay/releases/latest)** · [How it works](#quick-start) · [What it can save](#what-it-can-save) · [Credits](CREDITS.md)
 
-> Download **AndroidBay-Windows-x64.zip** from the release assets. GitHub's automatically generated “Source code” ZIP does not include the portable runtime and tools.
+> The first packaged Windows release is not published yet; source is available now. When the release is available, download **AndroidBay-Windows-x64.zip** from its assets. GitHub's automatically generated “Source code” ZIP does not include the portable runtime and tools.
 
 ## Why Android Bay?
 
@@ -103,14 +103,14 @@ From an extracted portable release:
 
 [VALIDATION.md](VALIDATION.md) records checks on the published build and their limits. Bug reports should identify Windows/Android versions, the app version, a sanitized error, and reproduction steps.
 
-## Standing on the shoulders of giants
+## Credits
 
 Android Bay depends on **[ADB / the Android Open Source Project](https://android.googlesource.com/platform/packages/modules/adb/)**, **[Genymobile's scrcpy](https://github.com/Genymobile/scrcpy)**, **[Phil Harvey's ExifTool](https://github.com/exiftool/exiftool)** and **[Python](https://github.com/python/cpython)**.
 
-We also learned from **[Open Android Backup](https://github.com/mrrfv/open-android-backup)**, **[Android-Archiver](https://github.com/mirbyte/Android-Archiver)**, **[SMS Import / Export](https://github.com/tmo1/sms-ie)**, **[Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager)** and community Timeline parsers. Our desktop controller and helper were written independently; these research references are credited as references, not claimed as incorporated source.
-
-Please read [CREDITS.md](CREDITS.md) and [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) for contributions, links and license information. Thank you to their maintainers and contributors.
+Design references include [Open Android Backup](https://github.com/mrrfv/open-android-backup), [Android-Archiver](https://github.com/mirbyte/Android-Archiver), [SMS Import / Export](https://github.com/tmo1/sms-ie), [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) and Timeline export parsers. See [CREDITS.md](CREDITS.md) for authors, usage and source links.
 
 ## License
 
-Original Android Bay code is available under the [MIT License](LICENSE). Bundled third-party tools keep their own licenses and notices.
+Android Bay's original code is licensed under the [MIT License](LICENSE). You can use, modify and redistribute it, including commercially, provided you retain the copyright and license notice. It is provided without warranty.
+
+Bundled third-party software is covered by its own licenses, not by Android Bay's MIT license. See [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) and [third-party/README.md](third-party/README.md) for component terms, included notices and corresponding source. The portable release includes FFmpeg and libusb under LGPL-2.1-or-later, with matching source archives in `third-party/sources/`. Keep those materials when redistributing the bundle.

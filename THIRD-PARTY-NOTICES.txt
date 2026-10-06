@@ -16,8 +16,12 @@ Genymobile, Romain Vimont and contributors. scrcpy is Apache-2.0.
 https://github.com/Genymobile/scrcpy/releases/tag/v5.0
 See tools/scrcpy-win64-v5.0/LICENSE.txt and upstream dependency information:
 https://github.com/Genymobile/scrcpy/tree/v5.0/release
-FFmpeg, SDL and other bundled components retain their own licenses.
-The upstream Windows distribution is preserved intact.
+FFmpeg 9.0.2 and libusb 1.0.30: LGPL-2.1-or-later. SDL 3.4.18: zlib license.
+dav1d 1.5.4: BSD-2-Clause. zlib: zlib license.
+See third-party/README.md for license texts, component source and build notes.
+Matching FFmpeg/libusb source archives and scrcpy's build recipes are included
+under third-party/sources/ in the portable ZIP. The upstream Windows binaries
+are preserved intact and their DLLs may be replaced with compatible builds.
 
 Python 3.13.16 embedded Windows x64
 Python Software Foundation and contributors.
@@ -26,10 +30,13 @@ See runtime/LICENSE.txt for the full Python license and incorporated notices.
 The isolated import path is configured for the adjacent application source.
 
 ExifTool 13.59 Windows x64
-Phil Harvey and contributors; Windows packaging contributors.
+Phil Harvey and contributors; Windows launcher and packaging by Oliver Betz.
 https://exiftool.org/
 https://github.com/exiftool/exiftool
 ExifTool is distributed under the same terms as Perl (Artistic License or GPL).
+The Artistic License is included in third-party/Perl-Artistic.txt. ExifTool's
+Perl source accompanies the executable. The Windows launcher is CC0; see its
+readme_windows.txt. Strawberry Perl and its libraries retain their own terms.
 See tools/exiftool/exiftool_files/LICENSE and its included notices, including
 tools/exiftool/exiftool_files/Licenses_Strawberry_Perl.zip.
 The executable is renamed from exiftool(-k).exe to exiftool.exe for batch use.

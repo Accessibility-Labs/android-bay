@@ -1,0 +1,36 @@
+# Private runtime output must never enter source control.
+state/
+demo-state/
+Recoveries/
+Demo recoveries/
+**/viewer-data/
+**/originals/
+**/device-context/
+**/deleted-items/
+**/location-data/
+**/exports/
+startup-error.txt
+*.log
+*.partial
+*.sqlite
+*.sqlite3
+*.db
+*.ab
+*.vcf
+*.jsonl
+.env
+.env.*
+*.pem
+*.key
+*.jks
+*.keystore
+.keys/
+.build-tools/
+companion/build/
+__pycache__/
+*.pyc
+runtime/
+tools/
+dist/
+*.zip
+*.zip.sha256.txt

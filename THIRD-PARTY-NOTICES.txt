@@ -1,0 +1,48 @@
+Android Bay - third-party software notices
+
+The MIT license in this repository covers original Android Bay code only.
+Third-party executables, libraries and documentation retain their original
+copyrights and licenses. Full notices shipped in vendor distributions are
+preserved in the portable release. See CREDITS.md and DEPENDENCIES.json.
+
+Android SDK Platform Tools / Android Debug Bridge
+Android Open Source Project, Google and contributors.
+https://developer.android.com/tools/releases/platform-tools
+https://android.googlesource.com/platform/packages/modules/adb/
+See tools/platform-tools/NOTICE.txt for incorporated notices and terms.
+
+scrcpy 5.0
+Genymobile, Romain Vimont and contributors. scrcpy is Apache-2.0.
+https://github.com/Genymobile/scrcpy/releases/tag/v5.0
+See tools/scrcpy-win64-v5.0/LICENSE.txt and upstream dependency information:
+https://github.com/Genymobile/scrcpy/tree/v5.0/release
+FFmpeg, SDL and other bundled components retain their own licenses.
+The upstream Windows distribution is preserved intact.
+
+Python 3.13.16 embedded Windows x64
+Python Software Foundation and contributors.
+https://www.python.org/downloads/release/python-31316/
+See runtime/LICENSE.txt for the full Python license and incorporated notices.
+The isolated import path is configured for the adjacent application source.
+
+ExifTool 13.59 Windows x64
+Phil Harvey and contributors; Windows packaging contributors.
+https://exiftool.org/
+https://github.com/exiftool/exiftool
+ExifTool is distributed under the same terms as Perl (Artistic License or GPL).
+See tools/exiftool/exiftool_files/LICENSE and its included notices, including
+tools/exiftool/exiftool_files/Licenses_Strawberry_Perl.zip.
+The executable is renamed from exiftool(-k).exe to exiftool.exe for batch use.
+
+Research references - source not incorporated into our controller/helper:
+https://github.com/mrrfv/open-android-backup (GPL-3.0)
+https://github.com/mirbyte/Android-Archiver (MIT)
+https://github.com/tmo1/sms-ie (GPL-3.0)
+https://github.com/TeamAmaze/AmazeFileManager (GPL-3.0)
+https://github.com/Makeshit/Timeline-GPX-Exporter
+https://github.com/DovarFalcone/google-takeout-location-parser
+
+Build/test tools (not included in the Windows app): Eclipse Temurin JDK,
+Android SDK build tools/platform, and JSON-java for host tests. Their license
+terms remain those of their respective publishers. The Android helper uses
+the platform's native org.json implementation on the phone.

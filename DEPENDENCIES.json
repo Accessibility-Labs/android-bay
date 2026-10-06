@@ -1,0 +1,38 @@
+[
+  {
+    "version": "37.0.1",
+    "name": "Android SDK Platform Tools",
+    "source": "https://dl.google.com/android/repository/platform-tools-latest-windows.zip",
+    "verification": "Downloaded from official Google HTTPS source; local archive hash recorded",
+    "archiveSha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99"
+  },
+  {
+    "version": "5.0",
+    "name": "scrcpy",
+    "source": "https://github.com/Genymobile/scrcpy/releases/download/v5.0/scrcpy-win64-v5.0.zip",
+    "verification": "SHA-256 matched upstream release digest",
+    "archiveSha256": "44c10d9e82f20ea67227d14d37bf9fbe3603117c5736df3f514544a02ba20a73"
+  },
+  {
+    "version": "3.13.16",
+    "name": "Python embedded Windows x64",
+    "source": "https://www.python.org/ftp/python/3.13.16/python-3.13.16-embed-amd64.zip",
+    "verification": "Downloaded from official Python HTTPS source; local archive hash recorded",
+    "archiveSha256": "97dae5274cc54867065e8d5a3226e48c35017ed332a0fdb0e27d5b5821961297"
+  },
+  {
+    "version": "13.59",
+    "name": "ExifTool Windows x64",
+    "source": "https://sourceforge.net/projects/exiftool/files/exiftool-13.59_64.zip/download",
+    "upstream": "https://github.com/exiftool/exiftool",
+    "verification": "SHA-256 matched official https://exiftool.org/checksums-13.59.txt",
+    "archiveSha256": "44b512b25af500724ba579d0a53c8fc5851628b692dd5e5d94ae4a15c2cba9ec"
+  },
+  {
+    "name": "Android Bay Helper",
+    "version": "1.0.1",
+    "apkSha256": "f39c8e6fa4484df63dd1c9b6639b3929628006a76ae77227ce463876cfb60914",
+    "source": "Independently written source in companion/",
+    "verification": "Rebuilt for Android Bay; APK v1/v2/v3 signatures verified; no INTERNET permission; 97 host assertions passed"
+  }
+]
